@@ -1,0 +1,42 @@
+{
+  "name": "webscraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./cons-material/app.js",
+    "start": "npm run dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.5.1",
+    "cheerio": "^1.0.0-rc.5",
+    "cors": "^2.8.5",
+    "email-templates": "^8.0.7",
+    "express": "^4.17.1",
+    "file-type": "^16.3.0",
+    "got": "^11.8.2",
+    "handlebars": "^4.7.7",
+    "hjs": "^0.0.6",
+    "hogan.js": "^3.0.2",
+    "image-to-base64": "^2.2.0",
+    "jsdom": "^16.5.2",
+    "map": "^1.0.1",
+    "mongoose": "^5.12.3",
+    "multer": "^1.4.2",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.6.1",
+    "nodemailer-express-handlebars": "^4.0.0",
+    "nodemon": "^2.0.7",
+    "read-chunk": "^3.2.0",
+    "request": "^2.88.2",
+    "socket.io": "^4.1.2",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}

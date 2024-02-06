@@ -27,8 +27,8 @@ fetch(URL).then(res => res.text()).then(res => {
                 // console.log(category)
                 // console.log(subcategory);
                 let items = res.split(`item-inner compare-item">`);
-                for (let j = 1; j < items.length; j++) {
-                    let item = items[j];
+                for (let j = 1; j < items.length; j--) {
+                    let item = items[i];
 
                     let itemname = item.split(`title="`);
                     itemname = itemname[1].split(`">`);
